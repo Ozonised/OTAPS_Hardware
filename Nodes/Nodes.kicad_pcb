@@ -13,7 +13,7 @@
 		(rev "1.1")
 		(company "Ozonised")
 		(comment 2 "License: GNU General Public License version 3")
-		(comment 3 "Github: https://github.com/Ozonised/OTAPS")
+		(comment 3 "Github: https://github.com/Ozonised/OTAPS_Hardware")
 		(comment 4 "Author: Farhan Khan")
 	)
 	(layers
@@ -2782,7 +2782,7 @@
 		)
 		(fp_arc
 			(start 3.834188 38.743851)
-			(mid 3.811627 38.645123)
+			(mid 3.811617 38.645123)
 			(end 3.8118 38.543851)
 			(stroke
 				(width 0.12)
@@ -7708,7 +7708,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "36565dbd-077d-4211-8299-fe2117b15924")
 			(effects
@@ -7719,7 +7719,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "3cbeb189-3480-4947-be91-1176ba49669e")
 			(effects
@@ -7887,7 +7887,7 @@
 			(uuid "d488c247-b41e-4214-b32e-5b02df18a19d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b219a450-cf52-440b-82b9-ddf6cdf32f77")
 			(effects
@@ -8426,7 +8426,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 5.16 3.5 360)
+			(at 5.16 3.5 0)
 			(layer "F.Fab")
 			(uuid "8ff49707-363c-4747-b7bb-c430d86aa3af")
 			(effects
@@ -8704,7 +8704,7 @@
 			(uuid "c8af030f-8b4b-486e-87de-3ef8c8c10307")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "3a68cc77-fd8b-435b-8755-908e76c2b892")
 			(effects
@@ -10206,7 +10206,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.8 360)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "f6b7afd7-791a-4b90-a078-657d878a006d")
 			(effects
@@ -10217,7 +10217,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "f988d48c-909b-4269-afcf-4549db0801c9")
 			(effects
@@ -10385,7 +10385,7 @@
 			(uuid "a332d3e0-f3d2-4b10-8218-8c218e65faae")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "117e655d-c7e1-40a0-b2bd-73fd8bf7bc3f")
 			(effects
