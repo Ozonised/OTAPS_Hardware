@@ -2006,6 +2006,10 @@
 		(uuid "10eb8b1b-a2c5-464c-b482-6b37b5177dfb")
 	)
 	(no_connect
+		(at 157.48 95.25)
+		(uuid "1b1048ee-83aa-4e04-9985-a0e7df4f529b")
+	)
+	(no_connect
 		(at 195.58 73.66)
 		(uuid "1b347910-c8bc-4a49-90a2-3411158783c1")
 	)
@@ -2184,6 +2188,10 @@
 	(no_connect
 		(at 246.38 132.08)
 		(uuid "f7b7a738-d376-4998-a534-c930f1d9a272")
+	)
+	(no_connect
+		(at 195.58 129.54)
+		(uuid "f9e0950d-604e-4f99-8b51-16df90f512d2")
 	)
 	(wire
 		(pts
@@ -2375,36 +2383,6 @@
 		)
 		(uuid "c16b6e8a-6a1f-4793-8834-9b60cac5fd61")
 	)
-	(wire
-		(pts
-			(xy 180.34 95.25) (xy 157.48 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c17c2e41-b3f0-4c9f-8c7a-13fb84202560")
-	)
-	(wire
-		(pts
-			(xy 195.58 129.54) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e95fee87-96a1-4852-9a19-bd4d26faee12")
-	)
-	(wire
-		(pts
-			(xy 180.34 129.54) (xy 180.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e979e52d-c61a-444c-8b23-b089c139229f")
-	)
 	(polyline
 		(pts
 			(xy 96.52 71.12) (xy 96.52 96.52)
@@ -2487,10 +2465,10 @@
 		)
 		(uuid "55566706-fa7f-4d90-97de-7b0c2dd59def")
 	)
-	(text_box "Note:\nArduino must be connected only to the 1st and nth(last) signal node. \n"
+	(text_box "Note:\nArduino must be connected only to the 1st and nth(last) signal node.\nBoth the Arduino and the signal node should be powered by a 7 to 12 volt power\nsource through the barrel connector.\n"
 		(exclude_from_sim no)
 		(at 119.38 135.89 0)
-		(size 57.15 13.97)
+		(size 57.785 26.035)
 		(stroke
 			(width 0.1016)
 			(type dash)
