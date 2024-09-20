@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32_BluePill")(type "KiCad")(uri "${KIPRJMOD}/STM32_BluePill.kicad_sym")(options "")(descr ""))
+  (lib (name "Screw_Terminal_01x03")(type "KiCad")(uri "${KIPRJMOD}/Screw_Terminal_01x03.kicad_sym")(options "")(descr ""))
+)

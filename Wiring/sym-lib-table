@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Node")(type "KiCad")(uri "${KIPRJMOD}/Node.kicad_sym")(options "")(descr ""))
+  (lib (name "Proxmity_Sensor")(type "KiCad")(uri "${KIPRJMOD}/Proxmity_Sensor.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BluePill")(type "KiCad")(uri "${KIPRJMOD}/BluePill.pretty")(options "")(descr ""))
+  (lib (name "Screw_Terminal_01x03")(type "KiCad")(uri "${KIPRJMOD}/Screw_Terminal_01x03.pretty")(options "")(descr ""))
+)
