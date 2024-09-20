@@ -241,65 +241,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -17.78 -8.89 0)
-					(length 2.54)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -11.43 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -13.97 0)
-					(length 2.54)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "Node_1_1"
 				(rectangle
 					(start -15.24 16.51)
-					(end 13.97 -17.78)
+					(end 13.97 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -358,7 +304,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 0) (xy -8.89 0) (xy -8.89 -15.24) (xy -11.43 -15.24)
+						(xy -11.43 0) (xy -8.89 0) (xy -8.89 -7.62) (xy -11.684 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -2034,10 +1980,6 @@
 		(uuid "2c206473-70f8-4c83-94f0-c858666663ba")
 	)
 	(no_connect
-		(at 123.19 105.41)
-		(uuid "2fba1138-4b25-484d-af9d-f7e5cb3c6cb2")
-	)
-	(no_connect
 		(at 195.58 132.08)
 		(uuid "321b5240-c77d-4dac-afa7-28313259c69b")
 	)
@@ -2070,10 +2012,6 @@
 		(uuid "41412bf2-fc60-4962-a120-5447d627d3a7")
 	)
 	(no_connect
-		(at 123.19 100.33)
-		(uuid "42bfe4b1-954a-4bab-b43b-605c31c5c842")
-	)
-	(no_connect
 		(at 246.38 71.12)
 		(uuid "4ae97a33-74b2-4889-91c9-f471812755f4")
 	)
@@ -2104,10 +2042,6 @@
 	(no_connect
 		(at 195.58 116.84)
 		(uuid "7525e500-3b6a-4b53-b7c8-47cd2c027f8e")
-	)
-	(no_connect
-		(at 123.19 102.87)
-		(uuid "76f92145-a120-400e-97c3-bf1db559a1c5")
 	)
 	(no_connect
 		(at 195.58 106.68)
@@ -2225,7 +2159,7 @@
 	)
 	(polyline
 		(pts
-			(xy 119.38 68.58) (xy 119.38 115.57)
+			(xy 119.38 68.58) (xy 119.38 108.585)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2179,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 68.58) (xy 162.56 115.57)
+			(xy 162.56 68.58) (xy 162.56 108.585)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2199,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 115.57) (xy 119.38 115.57)
+			(xy 162.56 108.585) (xy 119.38 108.585)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2399,7 @@
 		)
 		(uuid "55566706-fa7f-4d90-97de-7b0c2dd59def")
 	)
-	(text_box "Note:\nArduino must be connected only to the 1st and nth(last) signal node.\nBoth the Arduino and the signal node should be powered by a 7 to 12 volt power\nsource through the barrel connector.\n"
+	(text_box "Note:\nArduino must be connected only to the 1st and nth(last) signal node.\nBoth the Arduino and the signal node should be powered by a 7 to 12 volt power source through the barrel connector.\n"
 		(exclude_from_sim no)
 		(at 119.38 135.89 0)
 		(size 57.785 26.035)
@@ -2861,9 +2795,6 @@
 		(pin "3"
 			(uuid "fa5d8b45-cd67-411b-9f81-d2537cb17c90")
 		)
-		(pin "9"
-			(uuid "84d29d45-6606-4847-8174-25be6156a64c")
-		)
 		(pin "2"
 			(uuid "01cb7610-0f11-4b0c-b900-95f3f3ae9b69")
 		)
@@ -2873,14 +2804,8 @@
 		(pin "12"
 			(uuid "db835dfc-eabe-4fbc-ae91-16ed5cd30376")
 		)
-		(pin "8"
-			(uuid "db285260-2dd4-4be1-9ee0-daa15c48dc7a")
-		)
 		(pin "1"
 			(uuid "4fffdfe4-1b34-4268-9d7f-546b6eb4b95a")
-		)
-		(pin "7"
-			(uuid "62c8902b-b26f-46c4-bd8c-480350ead2c8")
 		)
 		(pin "5"
 			(uuid "2d8a1ef3-7580-48ac-b447-a232d56303d6")

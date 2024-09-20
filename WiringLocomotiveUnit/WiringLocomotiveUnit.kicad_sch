@@ -237,7 +237,7 @@
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 1.016 18.542 0)
+				(at 1.016 16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -245,7 +245,7 @@
 				)
 			)
 			(property "Value" ""
-				(at -6.35 -1.27 0)
+				(at -6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -253,7 +253,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -6.35 -1.27 0)
+				(at -6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -262,7 +262,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -6.35 -1.27 0)
+				(at -6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -271,7 +271,7 @@
 				)
 			)
 			(property "Description" ""
-				(at -6.35 -1.27 0)
+				(at -6.35 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -281,7 +281,7 @@
 			)
 			(symbol "Node_0_0"
 				(pin power_out line
-					(at -17.78 10.16 0)
+					(at -17.78 7.62 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -299,7 +299,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -3.81 180)
+					(at 16.51 -6.35 180)
 					(length 2.54)
 					(name "3.3V"
 						(effects
@@ -317,7 +317,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -1.27 180)
+					(at 16.51 -3.81 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -335,7 +335,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 1.27 180)
+					(at 16.51 -1.27 180)
 					(length 2.54)
 					(name "SDA"
 						(effects
@@ -353,7 +353,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 3.81 180)
+					(at 16.51 1.27 180)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -371,7 +371,7 @@
 					)
 				)
 				(pin power_out line
-					(at -17.78 7.62 0)
+					(at -17.78 5.08 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -389,7 +389,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
+					(at -17.78 2.54 0)
 					(length 2.54)
 					(name "SIG"
 						(effects
@@ -407,7 +407,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 -1.27 0)
+					(at -17.78 -3.81 0)
 					(length 2.54)
 					(name "PB15"
 						(effects
@@ -425,7 +425,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 -3.81 0)
+					(at -17.78 -6.35 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -443,7 +443,7 @@
 					)
 				)
 				(pin passive line
-					(at -17.78 -6.35 0)
+					(at -17.78 -8.89 0)
 					(length 2.54)
 					(name "PA8"
 						(effects
@@ -460,65 +460,11 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -17.78 -8.89 0)
-					(length 2.54)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -11.43 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -13.97 0)
-					(length 2.54)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "Node_1_1"
 				(rectangle
-					(start -15.24 16.51)
-					(end 13.97 -17.78)
+					(start -15.24 13.97)
+					(end 13.97 -14.224)
 					(stroke
 						(width 0)
 						(type default)
@@ -529,7 +475,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 3.81) (xy -8.89 3.81) (xy -8.89 5.08)
+						(xy -12.7 1.27) (xy -8.89 1.27) (xy -8.89 2.54)
 					)
 					(stroke
 						(width 0)
@@ -541,7 +487,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 11.43) (xy -8.89 11.43) (xy -8.89 10.16)
+						(xy -12.7 8.89) (xy -8.89 8.89) (xy -8.89 7.62)
 					)
 					(stroke
 						(width 0)
@@ -553,7 +499,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 5.08) (xy 11.43 5.08)
+						(xy 7.62 0) (xy 7.62 2.54) (xy 11.43 2.54)
 					)
 					(stroke
 						(width 0)
@@ -565,7 +511,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.43 -5.08) (xy 7.62 -5.08) (xy 7.62 -2.54)
+						(xy 11.43 -7.62) (xy 7.62 -7.62) (xy 7.62 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -577,7 +523,7 @@
 				)
 				(polyline
 					(pts
-						(xy -11.43 0) (xy -8.89 0) (xy -8.89 -15.24) (xy -11.43 -15.24)
+						(xy -11.43 -2.54) (xy -8.89 -2.54) (xy -8.89 -9.906) (xy -11.43 -9.906)
 					)
 					(stroke
 						(width 0)
@@ -588,7 +534,7 @@
 					)
 				)
 				(text "I2C\n"
-					(at 7.62 0.254 900)
+					(at 7.62 -2.286 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -596,7 +542,7 @@
 					)
 				)
 				(text "PROXMITY \n SENSOR\n"
-					(at -9.144 7.874 900)
+					(at -9.144 5.334 900)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -760,88 +706,112 @@
 		(uuid "3842a67c-5629-4059-8129-4e4833236368")
 	)
 	(no_connect
-		(at 128.27 95.25)
-		(uuid "4afaa293-ce04-484a-ace9-bdc24cfa0777")
-	)
-	(no_connect
 		(at 128.27 86.36)
 		(uuid "8c0aa156-3416-40f3-a94f-0de3ea98ca84")
 	)
 	(no_connect
-		(at 128.27 102.87)
-		(uuid "90a0089c-ddcb-400b-9fa9-f40c853e68cd")
-	)
-	(no_connect
-		(at 128.27 105.41)
-		(uuid "b4865820-fc1a-44dd-b4ff-fda2695b8301")
-	)
-	(no_connect
-		(at 128.27 107.95)
-		(uuid "d87caf50-eb9e-4549-8bf5-ff85ed8adbba")
-	)
-	(no_connect
-		(at 128.27 83.82)
+		(at 128.27 91.44)
 		(uuid "fec81fae-ab48-4b3b-bd2f-329155bf0856")
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 189.23 97.79)
+			(xy 162.56 100.33) (xy 187.96 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7085d152-c287-4af7-a5ea-7ad9f28e8701")
+		(uuid "17b2bb04-db3a-4551-b60f-9d2d397f3ddf")
 	)
 	(wire
 		(pts
-			(xy 93.98 100.33) (xy 128.27 100.33)
+			(xy 162.56 95.25) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b88084-8432-41b2-ab12-eb9ea540c847")
+		(uuid "3722dd32-d274-4956-8cb8-6ad3222e952d")
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 189.23 90.17)
+			(xy 119.38 97.79) (xy 93.98 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad346150-f451-40d3-91a2-cccff47ce070")
+		(uuid "54689fd1-5234-4bfb-bd17-68abe58511da")
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 189.23 95.25)
+			(xy 116.84 100.33) (xy 116.84 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d72d66d7-8e25-44ad-af09-13fb069966ae")
+		(uuid "5ee87427-9431-41a2-a69e-5fb19793d4cb")
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 189.23 92.71)
+			(xy 119.38 100.33) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb6c48f3-cb5c-4cfc-bad9-b7b72108d342")
+		(uuid "82bcedd6-0db8-47ff-8973-99eb1735102f")
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 128.27 97.79)
+			(xy 162.56 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fafa13be-cd1e-4044-a31e-b54ccf0d8037")
+		(uuid "9120b767-87b3-4cbf-bd88-af4f31068d06")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 187.96 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93547ef8-3011-4a6c-98a8-f6c2d86374f8")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44a7e81-7e79-430b-974f-15b6e17f52f4")
+	)
+	(wire
+		(pts
+			(xy 128.27 100.33) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e20993-196d-412e-9f43-d7aae72e3b9c")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba54287-ac22-437a-bba5-68e0d001faa7")
 	)
 	(rectangle
 		(start 124.46 72.39)
@@ -868,8 +838,8 @@
 		(uuid cad8b88e-b625-4a89-8197-da9bb44fcea0)
 	)
 	(rectangle
-		(start 187.96 78.74)
-		(end 213.36 110.49)
+		(start 186.69 81.28)
+		(end 212.09 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -900,10 +870,10 @@
 		)
 		(uuid "c91cf8bf-e1a4-4f48-8883-c5530ad222b8")
 	)
-	(text_box "The PWM signal is used to control the speed of the motor, with help of a motor driver, in the locomotive."
+	(text_box "The PWM signal is used to control the speed of the motor, with help of a motor driver, in the locomotive.\nThe actual real world implementation of the braking needs to be altered for the locomotive in use.\n"
 		(exclude_from_sim no)
 		(at 53.34 118.11 0)
-		(size 27.94 11.43)
+		(size 34.29 19.05)
 		(stroke
 			(width 0)
 			(type dash)
@@ -921,7 +891,7 @@
 	)
 	(text "OLED"
 		(exclude_from_sim no)
-		(at 200.406 76.2 0)
+		(at 199.136 78.74 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1078,9 +1048,6 @@
 		(pin "4"
 			(uuid "7340c044-e0f6-4c1f-a0a3-ed8fb99fd830")
 		)
-		(pin "8"
-			(uuid "dffc17d3-98ea-41fa-9b8f-f8043bcb16fc")
-		)
 		(pin "5"
 			(uuid "3a113a81-99df-441a-9550-5c52af22cce4")
 		)
@@ -1105,14 +1072,8 @@
 		(pin "11"
 			(uuid "b92ab0d2-171b-457f-877d-42988ef10b97")
 		)
-		(pin "9"
-			(uuid "ad647d53-c691-4168-9b0b-29754fb751ca")
-		)
 		(pin "2"
 			(uuid "38295773-16ec-4c1d-865c-1505ef0c6e9b")
-		)
-		(pin "7"
-			(uuid "5cbe73f5-2434-4178-97de-342e5ea62afb")
 		)
 		(instances
 			(project ""
@@ -1125,7 +1086,7 @@
 	)
 	(symbol
 		(lib_id "Oled:ssd1306")
-		(at 198.12 93.98 90)
+		(at 196.85 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1134,7 +1095,7 @@
 		(fields_autoplaced yes)
 		(uuid "b900eaa5-db92-43ca-a9e9-4923ba8f0bb4")
 		(property "Reference" "U3"
-			(at 209.55 93.3449 90)
+			(at 208.28 95.8849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1104,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 209.55 95.25 90)
+			(at 208.28 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 93.98 0)
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 93.98 0)
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 93.98 0)
+			(at 196.85 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
