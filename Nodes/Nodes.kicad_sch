@@ -6315,9 +6315,9 @@
 		)
 		(uuid "9b9f8f14-b3d9-40a6-8e38-eea590d66fd5")
 	)
-	(text "SIGNAL RESET\n"
+	(text "SIGNAL RESET/ TRAIN DIR\n"
 		(exclude_from_sim no)
-		(at 37.084 52.07 0)
+		(at 42.926 52.324 0)
 		(effects
 			(font
 				(size 1.27 1.27)
