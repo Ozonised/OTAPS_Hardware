@@ -19,13 +19,16 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*.lck
 fp-info-cache
 /build
+\#auto_saved_files#
 
 Wiring-backups/
 WiringLocomotiveUnit-backups/
 Node/
 Nodes-backups/
+
 # Netlist files (exported from Eeschema)
 *.net
 
