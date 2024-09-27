@@ -5619,7 +5619,7 @@
 	)
 	(polyline
 		(pts
-			(xy 173.99 72.39) (xy 118.11 72.39)
+			(xy 173.99 72.39) (xy 115.57 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6777,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 130.81 166.37 0)
 			(effects
 				(font
@@ -6854,7 +6854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/rc0805fr-071kl-yageo-res-thick-film-0805-1k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/"
 			(at 58.42 151.13 0)
 			(effects
 				(font
@@ -7428,7 +7428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 130.81 175.26 0)
 			(effects
 				(font
@@ -7714,7 +7714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 130.81 184.15 0)
 			(effects
 				(font
@@ -7983,6 +7983,15 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+			(at 246.38 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" "https://robu.in/product/m177-nrf24l01-2-4ghz-antenna-wireless-transceiver-module/"
 			(at 246.38 95.25 0)
 			(effects
 				(font
@@ -8496,7 +8505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/rc0805fr-071kl-yageo-res-thick-film-0805-1k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/"
 			(at 63.5 151.13 0)
 			(effects
 				(font
@@ -8713,7 +8722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 130.81 157.48 0)
 			(effects
 				(font
@@ -8853,7 +8862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 67.31 106.68 0)
 			(effects
 				(font
@@ -8990,6 +8999,15 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+			(at 246.38 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" "https://robu.in/product/m177-nrf24l01-2-4ghz-antenna-wireless-transceiver-module/"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -9560,7 +9578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/rc0805fr-071kl-yageo-res-thick-film-0805-1k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/"
 			(at 52.07 80.01 0)
 			(effects
 				(font
@@ -9767,6 +9785,15 @@
 				(hide yes)
 			)
 		)
+		(property "Vendor Link" "https://robu.in/product/tact-switch-tk-066-4-pins-6x6-smd/"
+			(at 43.18 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6521e35f-c927-4c76-904b-38b105798b1f")
 		)
@@ -9834,7 +9861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/ac0805fr-7w470rl-yageo-res-thick-film-0805-470-ohm-1-0-25w1-4w-%c2%b1100ppm-c-pad-smd-t-r-automotive-aec-q200/"
 			(at 67.31 111.76 0)
 			(effects
 				(font
@@ -10480,7 +10507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor Link" "https://robu.in/product/330-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/"
+		(property "Vendor Link" "https://robu.in/product/rc0805fr-071kl-yageo-res-thick-film-0805-1k-ohm-1-0-125w1-8w-%c2%b1100ppm-c-pad-smd-t-r/"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -10734,6 +10761,15 @@
 			)
 		)
 		(property "Description" "Ultra low power 2.4GHz RF Transceiver, Carrier PCB"
+			(at 246.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor Link" "https://robu.in/product/m177-nrf24l01-2-4ghz-antenna-wireless-transceiver-module/"
 			(at 246.38 50.8 0)
 			(effects
 				(font

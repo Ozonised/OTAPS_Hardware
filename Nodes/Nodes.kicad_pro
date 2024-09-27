@@ -3,9 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
+        "apply_defaults_to_fp_fields": true,
+        "apply_defaults_to_fp_shapes": true,
+        "apply_defaults_to_fp_text": true,
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
@@ -41,11 +41,11 @@
           "height": 3.2,
           "width": 3.2
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.152,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.152,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -239,12 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "lib_symbol_issues|393700|304800|93e8313c-ea96-42d6-9310-f13aafc42cce|00000000-0000-0000-0000-000000000000|||",
-      "pin_to_pin|2336800|1358900|1393b187-de43-48ad-9bbe-11303804c02a|244d87b4-1967-4b1f-81a4-512e8d61ada0|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd",
-      "pin_to_pin|2336800|901700|5d3bd3ae-4e1b-479e-b183-eb131c649f76|1393b187-de43-48ad-9bbe-11303804c02a|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd",
-      "pin_to_pin|2336800|901700|5d3bd3ae-4e1b-479e-b183-eb131c649f76|244d87b4-1967-4b1f-81a4-512e8d61ada0|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd|/742d6c17-a600-4b45-bd8f-7e8a2e4ceccd"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -551,7 +546,8 @@
       "/SPI_SCK": "rgb(255, 255, 0)",
       "GND": "rgb(72, 72, 72)",
       "VIN": "rgb(255, 0, 0)",
-      "unconnected-(U4-PA0-Pad25)": "rgb(255, 255, 0)"
+      "unconnected-(U4-PA0-Pad25)": "rgb(255, 255, 0)",
+      "unconnected-(U4-PB8-Pad16)": "rgb(255, 255, 0)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
@@ -678,8 +674,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_asc": false,
+      "sort_field": "Vendor Link"
     },
     "connection_grid_size": 50.0,
     "drawing": {
