@@ -10,7 +10,7 @@ This repository contains schematic, PCB and wiring files for OTAPS.
 # DETAILS:
 I created this project for the **Circuit Digest 2024 IoT & Edge AI Project Challenge**.
 The firmware for the signal and locomotive units is available at this repository: https://github.com/Ozonised/OTAPS_Firmware
-The project details including features, working protocol, build guide and code explanation can be found on this page:
+The project details including features, working protocol, build guide and code explanation can be found on this page: https://circuitdigest.com/microcontroller-projects/otaps-open-train-accident-prevention-system
 
 ### NOTE:
 Both signal and locomotive units utilise the same PCB.
